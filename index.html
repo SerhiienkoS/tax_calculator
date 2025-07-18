@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tax Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="utils.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+<header>
+    <h1>Tax Calculator</h1>
+</header>
+<div class="container">
+    <div id="taxForm">
+        <label>Income:
+            <input type="number" id="income" placeholder="999999999" required>
+        </label>
+        <label>Country:
+            <input type="text" id="country" placeholder="Please enter your country" required>
+        </label>
+        <label>State:
+            <select id="state" required>
+                <option value="">-- Select your State --</option>
+                <option value="Bavaria">Bavaria</option>
+                <option value="Baden-Württemberg">Baden-Württemberg</option>
+                <option value="Berlin">Berlin</option>
+                <option value="Hamburg">Hamburg</option>
+                <option value="Hesse">Hesse</option>
+                <option value="NRW">NRW</option>
+            </select>
+        </label>
+
+        <button id="taxButton">Click Me!</button>
+    </div>
+
+    <div id="result-side">
+        <h2 id="resultText">Result:</h2>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://get.pxhere.com/photo/work-technology-gadget-lifestyle-mobile-phone-brand-currency-mathematics-economy-calculator-count-taxes-businessmen-economical-pay-dollar-bill-calculate-tax-return-speculate-invoices-personal-computer-hardware-office-equipment-quandary-figure-out-734389.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(3px);
+    color: #fff;
+}
+
+header {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: #343a40;
+    color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 20px;
+    max-width: 1200px;
+    width: 100%;
+    gap: 40px;
+}
+
+#taxForm, #result-side {
+    flex: 1 1 350px;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+#taxForm label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+#taxForm input,
+#taxForm select {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-top: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+#taxForm input:focus,
+#taxForm select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button#taxButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button#taxButton:hover {
+    background-color: #0056b3;
+}
+
+#result-side h2 {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    color: #007bff;
+}
+
+#result-side h3 {
+    margin: 10px 0;
+    color: #343a40;
+}
